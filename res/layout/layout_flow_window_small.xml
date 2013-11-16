@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:id="@+id/flow_window_small_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_inbox_normal" >
+
+        <ImageView
+            android:id="@+id/image_btn_call"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_contact_card_btn_call_normal" />
+
+    </FrameLayout>
+
+</RelativeLayout>
